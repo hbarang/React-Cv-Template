@@ -6,16 +6,19 @@ import { FaLinkedin } from "react-icons/fa";
 
 import NavBarInfo from "./NavBarInfo.json";
 
+import ReloadButton from "./ReloadButton";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
 const socialLinks = NavBarInfo.SocialLinks;
 const name = NavBarInfo.Name;
 
-const NavBar = () => {
+const NavBar = ({reloadFunction}) => {
   return (
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand>{name}</Navbar.Brand>
+      <ReloadButton reloadFunction={reloadFunction} />
       <Navbar.Collapse className="justify-content-end">
         <a
           href={socialLinks.StackOverFlow}

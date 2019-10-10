@@ -18,26 +18,28 @@
       },
       "Description": "Software Developer",
       "ImageSrc": "",
-      "Detail": "Worked as a software engineer, used C# with .Net"
+      "Detail": "Worked as a software engineer, used C#, .Net"
     }
   ],
   "Education": [
     {
-      "Label": "ITU Computer Engineering",
+      "Label": "ITU ",
       "Date": {
         "Start": "2015-09",
         "End": "2019-08"
       },
       "Description": "Student",
-      "Detail": "Graduated from of the most respected universities in Turkey, with a GPA of 2.62",
+      "Detail": "Graduated from Computer Engineering department of ITU, with a GPA of 2.62",
       "ImageSrc": ""
     }
   ],
   "Projects": [
     {
       "Label": "Astrodisk",
-      "Date": "2019",
-      "Detail": "Astrodisk is a mobile game developed using Unity, available on both Android and IOS devices https://apps.apple.com/tr/app/astrodisk/id1450403861 https://play.google.com/store/apps/details?id=com.semihcihan.astrodisk",
+      "Date": {
+        "Start": "2019-01",
+        "End": "2019-02"
+      },      "Detail": "Astrodisk is a mobile game developed using Unity, available on both Android and IOS devices https://apps.apple.com/tr/app/astrodisk/id1450403861 https://play.google.com/store/apps/details?id=com.semihcihan.astrodisk",
       "ImageSrc": ""
     }
   ]
