@@ -1,0 +1,9 @@
+.socialIcons {
+  fill: white;
+  transition: all 0.5s;
+}
+
+.socialIcons:hover {
+  fill: #61dbfb;
+  transform: scale(0.9, 0.9);
+}

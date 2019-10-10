@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+}
+
+.SlideContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: all 2s;
+}
+
+.cardSlider {
+  height: 10px;
+  width: 100%;
+  background: black;
+  align-self: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.17);
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  min-width: 20vw;
+  max-width: 20vw;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.label {
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+.date {
+  font-size: 14px;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dateStart {
+  margin-left: 10px;
+}
+
+.dateEnd {
+  margin-right: 10px;
+}
+
+.empty {
+  flex-grow: 1;
+}
+.description {
+  margin-bottom: 10px;
+}
+
+.closeIcon {
+  align-self: flex-end;
+  margin: 4px 4px 0px 0px;
+}
+
+.headers {
+  text-align: center;
+  margin-top: 1em;
+  transition: color 0.3s;
+}
+
+.headers:hover {
+  color: grey;
+}
