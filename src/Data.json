@@ -39,7 +39,9 @@
       "Date": {
         "Start": "2019-01",
         "End": "2019-02"
-      },      "Detail": "Astrodisk is a mobile game developed using Unity, available on both Android and IOS devices https://apps.apple.com/tr/app/astrodisk/id1450403861 https://play.google.com/store/apps/details?id=com.semihcihan.astrodisk",
+      },
+      "Description": "IOS/Android Game",
+      "Detail": "Astrodisk is a mobile game developed using Unity, available on both Android and IOS devices https://apps.apple.com/tr/app/astrodisk/id1450403861 https://play.google.com/store/apps/details?id=com.semihcihan.astrodisk",
       "ImageSrc": ""
     }
   ]
