@@ -9,6 +9,8 @@ import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
+
+
 function App() {
   const [experienceDisplayArray, setExperienceDisplayArray] = useState([]);
   const [educationDisplayArray, setEducationDisplayArray] = useState([]);
@@ -33,9 +35,23 @@ function App() {
     getDisplayArrays();
   }, [experienceData, educationData, projectsData]);
 
+  const reload = () =>{
+    let tempArray = [...experienceDisplayArray]
+    tempArray.map((item, index) => (tempArray[index] = true))
+    setExperienceDisplayArray(tempArray)
+
+    tempArray = [...educationDisplayArray]
+    tempArray.map((item, index) => (tempArray[index] = true))
+    setEducationDisplayArray(tempArray)
+
+    tempArray = [...projectsDisplayArray]
+    tempArray.map((item, index) => (tempArray[index] = true))
+    setProjectsDisplayArray(tempArray)
+  }
+
   return (
     <div className="App">
-      <NavBar reloadFunction={() => console.log("test")} />
+      <NavBar reloadFunction={reload} />
       {experienceDisplayArray.every(x => !x) ? (
         ""
       ) : (
