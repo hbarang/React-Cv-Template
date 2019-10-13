@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
 import Fade from "react-bootstrap/Fade";
+import Linkify from "react-linkify";
 import { MdExpandMore, MdExpandLess, MdClose } from "react-icons/md";
 
 const CvItem = ({
@@ -27,7 +28,9 @@ const CvItem = ({
         <div className="dateEnd">{date.End}</div>
       </div>
       <Collapse in={showInfo}>
-        <div className="detail">{detail}</div>
+        <div className="detail">
+          <Linkify>{detail}</Linkify>
+        </div>
       </Collapse>
 
       <div className="empty" />
