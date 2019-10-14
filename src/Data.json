@@ -8,7 +8,7 @@
       },
       "Description": "Software Developer Intern",
       "Detail": "Worked as an intern, developed a map component for the company using React.js",
-      "ImageSrc": ""
+      "ImageSrc": "https://www.kobil.com/wp-content/uploads/2018/06/intertech2.png"
     },
     {
       "Label": "Softtech",
@@ -17,8 +17,8 @@
         "End": "-"
       },
       "Description": "Software Developer",
-      "ImageSrc": "",
-      "Detail": "Worked as a software engineer, used C#, .Net"
+      "Detail": "Worked as a software engineer, used C#, .Net",
+      "ImageSrc": "http://portal.ariteknokent.com.tr//Upload/TgbFirma/Logo-465-684.jpg"
     }
   ],
   "Education": [
@@ -30,7 +30,7 @@
       },
       "Description": "Student",
       "Detail": "Graduated from Computer Engineering department of ITU, with a GPA of 2.62",
-      "ImageSrc": ""
+      "ImageSrc": "https://images.unsplash.com/photo-1565128600510-ef8a2177d6f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
     }
   ],
   "Projects": [
