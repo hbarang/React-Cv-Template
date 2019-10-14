@@ -65,6 +65,7 @@ function App() {
               date={item.Date}
               description={item.Description}
               detail={item.Detail}
+              imageSrc={item.ImageSrc}
               closeFunction={() => {
                 let tempArray = [...experienceDisplayArray];
                 tempArray[index] = false;
@@ -91,6 +92,7 @@ function App() {
               date={item.Date}
               description={item.Description}
               detail={item.Detail}
+              imageSrc={item.ImageSrc}
               closeFunction={() => {
                 let tempArray = [...educationDisplayArray];
                 tempArray[index] = false;
@@ -117,6 +119,7 @@ function App() {
               date={item.Date}
               description={item.Description}
               detail={item.Detail}
+              imageSrc={item.ImageSrc}
               closeFunction={() => {
                 let tempArray = [...projectsDisplayArray];
                 tempArray[index] = false;
