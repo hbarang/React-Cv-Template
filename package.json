@@ -13,7 +13,7 @@
     "react-dom": "16.8.6",
     "react-icons": "3.7.0",
     "react-linkify": "^1.0.0-alpha",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-swipeable-views": "0.13.3"
   },
   "devDependencies": {
